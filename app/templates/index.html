@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Qualifications</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px double black;
+            padding: 10px;
+            text-align: center;
+        }
+        tr:first-child th {
+            border-top: 2px double black;
+        }
+        tr:last-child td {
+            border-bottom: 2px double black;
+        }
+        td:first-child,
+        td:nth-child(2),
+        td:nth-child(3) {
+            border-left: 2px double black;
+            border-right: 2px double black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" bgcolor="lightblue">Academic Qualifications</th>
+            <th bgcolor="lightblue">Year Awarded</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Bachelor Of Computer Science</td>
+            <td>Soochow University</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="lightblue">First Class Honours</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Master Of Education</td>
+            <td>The University of Hong Kong</td>
+            <td>2024</td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="lightblue">The Best Student Of The Year</td>
+        </tr>
+    </table>
+</body>
+</html>
